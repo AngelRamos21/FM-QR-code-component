@@ -6,7 +6,7 @@ body{
     padding: 0;
 }
 
-section{
+main{
     display: grid;
     height: 100vh;
     place-content: center;
@@ -16,7 +16,7 @@ section{
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    max-width: 17em;
+    max-width: 16em;
     padding: 0.9em;
     
 }
@@ -25,19 +25,19 @@ img{
     width: 100%;
 }
 .card-info{
-    padding: 0.813em;
+    padding: 0.2em;
     text-align: center;
 }
 .card-info .title{
     color: hsl(218, 44%, 22%);
     font-size: 21px;
-    font-weight: 700;
+   
   
 }
 
 .card-info .paragraph{
     color: hsl(220, 15%, 55%);
     font-size: 15px;
-    font-weight: 400;
+  
    
 }
